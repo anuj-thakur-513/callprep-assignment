@@ -1,6 +1,6 @@
 import logging
 from fastapi import APIRouter, Query, HTTPException
-from app.core.embeddings import search_embeddings, enhance_query_with_llm
+from app.core.embeddings import search_embeddings
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
